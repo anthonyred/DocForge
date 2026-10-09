@@ -1,0 +1,109 @@
+/* DocForge Light QSS Theme */
+
+QMainWindow {
+    background-color: #F8FAFC;
+    color: #1E293B;
+}
+
+QWidget {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    color: #1E293B;
+}
+
+QTabWidget::pane {
+    border: 1px solid #E2E8F0;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+QTabBar::tab {
+    background-color: #F1F5F9;
+    color: #475569;
+    padding: 10px 20px;
+    margin-right: 4px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    font-weight: 600;
+}
+
+QTabBar::tab:selected {
+    background-color: #FFFFFF;
+    color: #1B365D;
+    border: 1px solid #CBD5E1;
+    border-bottom: 2px solid #1B365D;
+}
+
+QTabBar::tab:hover {
+    background-color: #E2E8F0;
+    color: #0F172A;
+}
+
+QPushButton {
+    background-color: #1B365D;
+    color: #FFFFFF;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #254B82;
+}
+
+QPushButton:pressed {
+    background-color: #0F2342;
+}
+
+QPushButton#secondary_btn {
+    background-color: #E2E8F0;
+    color: #1E293B;
+}
+
+QPushButton#secondary_btn:hover {
+    background-color: #CBD5E1;
+}
+
+QTextEdit, QPlainTextEdit, QLineEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    padding: 8px;
+    color: #0F172A;
+}
+
+QTextEdit:focus, QPlainTextEdit:focus, QLineEdit:focus {
+    border: 2px solid #2563EB;
+}
+
+QComboBox {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QGroupBox {
+    font-weight: bold;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px;
+    color: #1B365D;
+}
+
+QStatusBar {
+    background-color: #F1F5F9;
+    color: #64748B;
+}

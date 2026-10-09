@@ -1,0 +1,135 @@
+{
+  "profile_version": 1,
+  "name": "Code Review Doc",
+  "description": "Developer-centric profile with high contrast code highlighting, crisp typography, and compact tables.",
+  "cover": {
+    "enabled": true,
+    "title_source": "markdown_h1",
+    "custom_title": "",
+    "subtitle": "Architecture & Pull Request Code Review Summary",
+    "doc_type": "CODE REVIEW",
+    "version": "v1.0",
+    "company": "Software Architecture Guild",
+    "logo_path": "",
+    "layout": "minimal_left",
+    "accent_color": "#2B6CB0",
+    "title_font": "Segoe UI",
+    "title_size": 28.0,
+    "title_bold": true,
+    "title_color": "#2B6CB0",
+    "author_style": {
+      "font": "Segoe UI",
+      "size": 11.0,
+      "color": "#4A5568",
+      "italic": false
+    },
+    "date_style": {
+      "font": "Segoe UI",
+      "size": 10.5,
+      "color": "#718096",
+      "italic": true
+    }
+  },
+  "body": {
+    "font_family": "Segoe UI",
+    "size_pt": 10.5,
+    "color": "#2D3748",
+    "line_spacing": 1.2,
+    "space_after_pt": 5.0,
+    "alignment": "left"
+  },
+  "headings": {
+    "h1": {
+      "font_family": "Segoe UI Semibold",
+      "size_pt": 20.0,
+      "bold": true,
+      "italic": false,
+      "color": "#2B6CB0",
+      "space_before_pt": 16.0,
+      "space_after_pt": 6.0,
+      "numbering": "none"
+    },
+    "h2": {
+      "font_family": "Segoe UI Semibold",
+      "size_pt": 15.0,
+      "bold": true,
+      "italic": false,
+      "color": "#319795",
+      "space_before_pt": 12.0,
+      "space_after_pt": 4.0,
+      "numbering": "none"
+    },
+    "h3": {
+      "font_family": "Segoe UI",
+      "size_pt": 12.0,
+      "bold": true,
+      "italic": false,
+      "color": "#2D3748",
+      "space_before_pt": 8.0,
+      "space_after_pt": 3.0,
+      "numbering": "none"
+    },
+    "h4": {
+      "font_family": "Segoe UI",
+      "size_pt": 10.5,
+      "bold": true,
+      "italic": true,
+      "color": "#4A5568",
+      "space_before_pt": 6.0,
+      "space_after_pt": 2.0,
+      "numbering": "none"
+    }
+  },
+  "code_block": {
+    "font_family": "Consolas",
+    "size_pt": 9.0,
+    "color": "#1A202C",
+    "background_color": "#F7FAFC",
+    "border_color": "#E2E8F0",
+    "border_size_pt": 0.5,
+    "space_before_pt": 6.0,
+    "space_after_pt": 6.0
+  },
+  "inline_code": {
+    "font_family": "Consolas",
+    "size_pt": 9.5,
+    "color": "#2B6CB0",
+    "background_color": "#EBF8FF"
+  },
+  "lists": {
+    "bullet_style": "disc",
+    "space_after_pt": 3.0,
+    "indent_cm": 0.63
+  },
+  "tables": {
+    "header_font_bold": true,
+    "header_font_color": "#FFFFFF",
+    "header_background_color": "#2B6CB0",
+    "row_alternate_background_color": "#EBF8FF",
+    "border_color": "#BEE3F8",
+    "border_size_pt": 0.5,
+    "cell_padding_cm": 0.2
+  },
+  "blockquotes": {
+    "font_family": "Segoe UI",
+    "size_pt": 10.0,
+    "italic": true,
+    "color": "#2D3748",
+    "left_border_color": "#319795",
+    "left_border_size_pt": 3.0,
+    "indent_cm": 0.8,
+    "background_color": "#E6FFFA"
+  },
+  "page": {
+    "size": "A4",
+    "orientation": "portrait",
+    "margin_top_cm": 2.5,
+    "margin_bottom_cm": 2.5,
+    "margin_left_cm": 2.5,
+    "margin_right_cm": 2.5,
+    "header_text": "Code Review Document",
+    "header_alignment": "right",
+    "footer_show_page_number": true,
+    "footer_text": "Page {page}"
+  }
+}

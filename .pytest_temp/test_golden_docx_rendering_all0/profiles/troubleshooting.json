@@ -1,0 +1,135 @@
+{
+  "profile_version": 1,
+  "name": "Troubleshooting Doc",
+  "description": "High-visibility engineering troubleshooting report format with warning highlights and step-by-step resolution sections.",
+  "cover": {
+    "enabled": true,
+    "title_source": "markdown_h1",
+    "custom_title": "",
+    "subtitle": "System Diagnostics & Incident Troubleshooting Guide",
+    "doc_type": "TROUBLESHOOTING REPORT",
+    "version": "v1.0",
+    "company": "Engineering Operations",
+    "logo_path": "",
+    "layout": "accent_banner",
+    "accent_color": "#C53030",
+    "title_font": "Segoe UI",
+    "title_size": 28.0,
+    "title_bold": true,
+    "title_color": "#9B2C2C",
+    "author_style": {
+      "font": "Segoe UI",
+      "size": 11.0,
+      "color": "#4A5568",
+      "italic": false
+    },
+    "date_style": {
+      "font": "Segoe UI",
+      "size": 10.5,
+      "color": "#718096",
+      "italic": true
+    }
+  },
+  "body": {
+    "font_family": "Segoe UI",
+    "size_pt": 10.5,
+    "color": "#1A202C",
+    "line_spacing": 1.2,
+    "space_after_pt": 5.0,
+    "alignment": "left"
+  },
+  "headings": {
+    "h1": {
+      "font_family": "Segoe UI Semibold",
+      "size_pt": 20.0,
+      "bold": true,
+      "italic": false,
+      "color": "#9B2C2C",
+      "space_before_pt": 16.0,
+      "space_after_pt": 6.0,
+      "numbering": "1."
+    },
+    "h2": {
+      "font_family": "Segoe UI Semibold",
+      "size_pt": 15.0,
+      "bold": true,
+      "italic": false,
+      "color": "#DD6B20",
+      "space_before_pt": 12.0,
+      "space_after_pt": 4.0,
+      "numbering": "1.1"
+    },
+    "h3": {
+      "font_family": "Segoe UI",
+      "size_pt": 12.0,
+      "bold": true,
+      "italic": false,
+      "color": "#2D3748",
+      "space_before_pt": 8.0,
+      "space_after_pt": 3.0,
+      "numbering": "none"
+    },
+    "h4": {
+      "font_family": "Segoe UI",
+      "size_pt": 10.5,
+      "bold": true,
+      "italic": true,
+      "color": "#4A5568",
+      "space_before_pt": 6.0,
+      "space_after_pt": 2.0,
+      "numbering": "none"
+    }
+  },
+  "code_block": {
+    "font_family": "Consolas",
+    "size_pt": 9.0,
+    "color": "#2D3748",
+    "background_color": "#EDF2F7",
+    "border_color": "#CBD5E0",
+    "border_size_pt": 0.5,
+    "space_before_pt": 6.0,
+    "space_after_pt": 6.0
+  },
+  "inline_code": {
+    "font_family": "Consolas",
+    "size_pt": 9.5,
+    "color": "#C53030",
+    "background_color": "#FFF5F5"
+  },
+  "lists": {
+    "bullet_style": "disc",
+    "space_after_pt": 3.0,
+    "indent_cm": 0.63
+  },
+  "tables": {
+    "header_font_bold": true,
+    "header_font_color": "#FFFFFF",
+    "header_background_color": "#9B2C2C",
+    "row_alternate_background_color": "#FFF5F5",
+    "border_color": "#FEB2B2",
+    "border_size_pt": 0.5,
+    "cell_padding_cm": 0.2
+  },
+  "blockquotes": {
+    "font_family": "Segoe UI",
+    "size_pt": 10.0,
+    "italic": true,
+    "color": "#9B2C2C",
+    "left_border_color": "#E53E3E",
+    "left_border_size_pt": 3.5,
+    "indent_cm": 0.8,
+    "background_color": "#FFF5F5"
+  },
+  "page": {
+    "size": "A4",
+    "orientation": "portrait",
+    "margin_top_cm": 2.5,
+    "margin_bottom_cm": 2.5,
+    "margin_left_cm": 2.5,
+    "margin_right_cm": 2.5,
+    "header_text": "Troubleshooting Report - Confidential",
+    "header_alignment": "right",
+    "footer_show_page_number": true,
+    "footer_text": "Page {page}"
+  }
+}

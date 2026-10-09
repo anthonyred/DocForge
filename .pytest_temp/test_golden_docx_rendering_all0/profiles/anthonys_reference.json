@@ -1,0 +1,135 @@
+{
+  "profile_version": 1,
+  "name": "Anthony's Reference Format",
+  "description": "Executive report format derived from reference design specifications, featuring Deep Navy accents, crisp Segoe UI typography, and polished cover headers.",
+  "cover": {
+    "enabled": true,
+    "title_source": "markdown_h1",
+    "custom_title": "",
+    "subtitle": "Technical Architecture & System Specification",
+    "doc_type": "EXECUTIVE SPECIFICATION",
+    "version": "v1.0",
+    "company": "DocForge Enterprise",
+    "logo_path": "",
+    "layout": "executive_modern",
+    "accent_color": "#1B365D",
+    "title_font": "Segoe UI",
+    "title_size": 32.0,
+    "title_bold": true,
+    "title_color": "#1B365D",
+    "author_style": {
+      "font": "Segoe UI",
+      "size": 12.0,
+      "color": "#4A5568",
+      "italic": false
+    },
+    "date_style": {
+      "font": "Segoe UI",
+      "size": 11.0,
+      "color": "#718096",
+      "italic": true
+    }
+  },
+  "body": {
+    "font_family": "Segoe UI",
+    "size_pt": 11.0,
+    "color": "#2D3748",
+    "line_spacing": 1.25,
+    "space_after_pt": 6.0,
+    "alignment": "left"
+  },
+  "headings": {
+    "h1": {
+      "font_family": "Segoe UI Semibold",
+      "size_pt": 22.0,
+      "bold": true,
+      "italic": false,
+      "color": "#1B365D",
+      "space_before_pt": 18.0,
+      "space_after_pt": 8.0,
+      "numbering": "none"
+    },
+    "h2": {
+      "font_family": "Segoe UI Semibold",
+      "size_pt": 16.0,
+      "bold": true,
+      "italic": false,
+      "color": "#2B6CB0",
+      "space_before_pt": 14.0,
+      "space_after_pt": 6.0,
+      "numbering": "none"
+    },
+    "h3": {
+      "font_family": "Segoe UI",
+      "size_pt": 13.0,
+      "bold": true,
+      "italic": false,
+      "color": "#2D3748",
+      "space_before_pt": 10.0,
+      "space_after_pt": 4.0,
+      "numbering": "none"
+    },
+    "h4": {
+      "font_family": "Segoe UI",
+      "size_pt": 11.0,
+      "bold": true,
+      "italic": true,
+      "color": "#4A5568",
+      "space_before_pt": 8.0,
+      "space_after_pt": 4.0,
+      "numbering": "none"
+    }
+  },
+  "code_block": {
+    "font_family": "Consolas",
+    "size_pt": 9.5,
+    "color": "#24292E",
+    "background_color": "#F6F8FA",
+    "border_color": "#E1E4E8",
+    "border_size_pt": 0.5,
+    "space_before_pt": 6.0,
+    "space_after_pt": 6.0
+  },
+  "inline_code": {
+    "font_family": "Consolas",
+    "size_pt": 10.0,
+    "color": "#D73A49",
+    "background_color": "#F0F3F6"
+  },
+  "lists": {
+    "bullet_style": "disc",
+    "space_after_pt": 3.0,
+    "indent_cm": 0.63
+  },
+  "tables": {
+    "header_font_bold": true,
+    "header_font_color": "#FFFFFF",
+    "header_background_color": "#1B365D",
+    "row_alternate_background_color": "#F8FAFC",
+    "border_color": "#CBD5E0",
+    "border_size_pt": 0.5,
+    "cell_padding_cm": 0.2
+  },
+  "blockquotes": {
+    "font_family": "Segoe UI",
+    "size_pt": 10.5,
+    "italic": true,
+    "color": "#4A5568",
+    "left_border_color": "#3182CE",
+    "left_border_size_pt": 3.0,
+    "indent_cm": 0.8,
+    "background_color": "#EBF8FF"
+  },
+  "page": {
+    "size": "A4",
+    "orientation": "portrait",
+    "margin_top_cm": 2.5,
+    "margin_bottom_cm": 2.5,
+    "margin_left_cm": 2.5,
+    "margin_right_cm": 2.5,
+    "header_text": "DocForge Specification",
+    "header_alignment": "right",
+    "footer_show_page_number": true,
+    "footer_text": "Page {page}"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "profile_version": 1,
+  "name": "Support Guide",
+  "source_filename": "customer-template.docx",
+  "reference_file": "reference.docx",
+  "detected_properties": {
+    "Page": "8.50 \u00d7 11.00 in, portrait",
+    "Margins": "top 1.00, bottom 1.00, left 1.00, right 1.25 in",
+    "Section layouts": "1: 8.50x11.00 in, margins T/B/L/R 1.00/1.00/1.00/1.25",
+    "Normal": "Arial size inherited; bold=None, italic=None, color=inherited; alignment=inherited; before=inherited, after=inherited; line=inherited; indent=left=inherited, right=inherited, first=inherited",
+    "Title": "inherited 26 pt; bold=None, italic=None, color=17365D; alignment=inherited; before=inherited, after=15 pt; line=1.0; indent=left=inherited, right=inherited, first=inherited",
+    "Subtitle": "inherited 12 pt; bold=None, italic=True, color=4F81BD; alignment=inherited; before=inherited, after=inherited; line=inherited; indent=left=inherited, right=inherited, first=inherited",
+    "Heading 1": "Arial 14 pt; bold=True, italic=None, color=365F91; alignment=inherited; before=24 pt, after=0 pt; line=inherited; indent=left=inherited, right=inherited, first=inherited",
+    "Heading 2": "inherited 13 pt; bold=True, italic=None, color=4F81BD; alignment=inherited; before=10 pt, after=0 pt; line=inherited; indent=left=inherited, right=inherited, first=inherited",
+    "Heading 3": "inherited size inherited; bold=True, italic=None, color=4F81BD; alignment=inherited; before=10 pt, after=0 pt; line=inherited; indent=left=inherited, right=inherited, first=inherited",
+    "Heading 4": "inherited size inherited; bold=True, italic=True, color=4F81BD; alignment=inherited; before=10 pt, after=0 pt; line=inherited; indent=left=inherited, right=inherited, first=inherited",
+    "Heading 5": "inherited size inherited; bold=None, italic=None, color=243F60; alignment=inherited; before=10 pt, after=0 pt; line=inherited; indent=left=inherited, right=inherited, first=inherited",
+    "Heading 6": "inherited size inherited; bold=None, italic=True, color=243F60; alignment=inherited; before=10 pt, after=0 pt; line=inherited; indent=left=inherited, right=inherited, first=inherited",
+    "Character styles": "Header Char, Footer Char, Default Paragraph Font, Heading 1 Char, Heading 2 Char, Heading 3 Char, Title Char, Subtitle Char, Body Text Char, Body Text 2 Char, Body Text 3 Char, Macro Text Char",
+    "Code styles": "none detected",
+    "Headers": "none visible as text",
+    "Footers": "none visible as text",
+    "Header/footer alignment": "inherited",
+    "Page number fields": "0",
+    "Direct formatting": "0 paragraphs/runs detected",
+    "Tables": "0; styles: none",
+    "First table formatting": "not available",
+    "Page breaks": "0",
+    "Section breaks": "0",
+    "List styles": "none detected"
+  },
+  "mapped_styles": {
+    "Markdown H1": "Heading 1",
+    "Markdown H2": "Heading 2",
+    "Markdown H3": "Heading 3",
+    "Markdown body": "Body Text",
+    "Markdown code": "Normal",
+    "Markdown quote": "Quote"
+  },
+  "uncertain_properties": [
+    "no clearly named code style was found"
+  ],
+  "unsupported_properties": [
+    "embedded floating objects",
+    "exact Word page layout fidelity"
+  ],
+  "strategy": "Pass this DOCX to Pandoc as --reference-doc; inspect generated styles after conversion."
+}

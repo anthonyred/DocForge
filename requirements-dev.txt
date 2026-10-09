@@ -1,0 +1,4 @@
+-r requirements.txt
+mypy>=1.10,<2
+pyinstaller>=6,<7
+pytest>=8,<10
